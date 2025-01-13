@@ -85,7 +85,13 @@ export const Overlay = () => {
                 </b>
                 <b className="underline ml-1 hover:text-gray-800">TypeScript</b>
               </p>
-
+              <a
+                href="/CV_Ananda Muhammad Zahir.pdf" // Replace with the actual path to your resume file
+                download="Nanda_Resume.pdf" // Name of the downloaded file
+                className="inline-block mt-4 px-6 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-700 transition-colors duration-300"
+              >
+                📄 Download Resume
+              </a>
               <p className="animate-bounce mt-4 md:mt-6">↓</p>
             </div>
 
